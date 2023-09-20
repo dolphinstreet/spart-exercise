@@ -1,0 +1,43 @@
+li {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--darkBlue);
+  border-radius: 15px;
+  height: 7rem;
+  margin-bottom: 1rem;
+}
+
+li:hover {
+  background-color: rgba(244, 247, 251, 1);
+}
+
+li.active {
+  border: 2px solid var(--darkBlue);
+}
+
+li h1 {
+  padding-top: 9px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+li h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+li h3 {
+  color: var(--lightBlue);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.center-info {
+  white-space: break-spaces;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 45%;
+}

@@ -1,0 +1,30 @@
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.top-section {
+  display: flex;
+  gap: 10px;
+  height: 2rem;
+  align-items: center;
+}
+
+.top-section img {
+  height: 80%;
+}
+
+.top-section .title {
+  color: var(--lightBlue);
+  font-size: 0.6rem;
+  font-weight: 400;
+  max-width: 1rem;
+}
+
+.grid-item .value {
+  color: var(--darkBlue);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
