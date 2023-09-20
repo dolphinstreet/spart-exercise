@@ -9,4 +9,4 @@ Thanks again for the opportunity ☀️
 
 Delfina 🍕
 
-[Weather app](./react-weather/src/main.jsx)
+[Weather app](./react-weather/index.html)
