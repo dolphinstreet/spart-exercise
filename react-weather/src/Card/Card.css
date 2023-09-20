@@ -7,6 +7,7 @@ li {
   border-radius: 15px;
   height: 7rem;
   margin-bottom: 1rem;
+  padding-right: 10px;
 }
 
 li:hover {

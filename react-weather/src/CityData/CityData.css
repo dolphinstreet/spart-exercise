@@ -10,6 +10,7 @@
   gap: 10px;
   height: 2rem;
   align-items: center;
+  width: 100px;
 }
 
 .top-section img {
@@ -20,7 +21,7 @@
   color: var(--lightBlue);
   font-size: 0.6rem;
   font-weight: 400;
-  max-width: 1rem;
+  width: min-content;
 }
 
 .grid-item .value {
